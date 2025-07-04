@@ -14,7 +14,7 @@ st.markdown("Your AI Tutor for *Pathophysiology* — powered by Dr-Afsoon.com")
 # Sidebar with Mode Selection
 mode = st.sidebar.radio(
     "Choose Mode:",
-    ("🧾 Explanation Mode", "🔬 Latest Research Mode", "🎯 Quiz Mode", "🧪 Clinical Case Mode")
+    ("🧾 Explanation Mode", "Concept Connections Mode", "🔬 Latest Research Mode", "🎯 Quiz Mode", "🧪 Clinical Case Mode")
 )
 
 st.sidebar.markdown("🔄 Switch modes to change how the bot responds!")
