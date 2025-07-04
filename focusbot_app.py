@@ -9,12 +9,12 @@ st.set_page_config(page_title="Dr. Afsoon’s FocusBot", layout="wide")
 
 # Title and Branding
 st.title("🤖 Dr. Afsoon’s FocusBot")
-st.markdown("Your AI Tutor for *Pathophysiology in Focus* — powered by Dr-Afsoon.com")
+st.markdown("Your AI Tutor for *Pathophysiology* — powered by Dr-Afsoon.com")
 
 # Sidebar with Mode Selection
 mode = st.sidebar.radio(
     "Choose Mode:",
-    ("🧾 Robbins Standard Mode", "🔬 Latest Research Mode", "🎯 Quiz Mode", "🧪 Clinical Case Mode")
+    ("🧾 Explanation Mode", "🔬 Latest Research Mode", "🎯 Quiz Mode", "🧪 Clinical Case Mode")
 )
 
 st.sidebar.markdown("🔄 Switch modes to change how the bot responds!")
